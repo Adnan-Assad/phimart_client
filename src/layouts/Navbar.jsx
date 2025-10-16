@@ -20,7 +20,9 @@ const Navbar = () => {
             <li><a>Submenu 2</a></li>
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li>
+          <Link to="/shop">Shop</Link>
+          </li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -37,7 +39,9 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a>Item 3</a></li>
+      <li>
+        <Link to="/shop">Shop</Link>
+        </li>
     </ul>
   </div>
   <div className="navbar-end">

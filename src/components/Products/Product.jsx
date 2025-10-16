@@ -28,8 +28,9 @@ const Product = () => {
 
 
     return (
-        <section className='mx-auto py-16 bg-gray-50'>
-            <div className='flex  justify-between items-center px-4 md:px-8 mb-4'> 
+        <section className='bg-gray-50'>
+           <div className='py-12 px-4 max-w-7xl mx-auto'>
+             <div className='flex  justify-between items-center px-4 md:px-8 mb-4'> 
                 <h2 className='text-3xl md:text-4xl font-bold'>Trending Products :</h2>
                 <a href="#" className='btn btn-secondary rounded-full px-6 text-lg'> View All</a>
             </div>
@@ -72,6 +73,7 @@ const Product = () => {
             {!isLoading && !error && products.length === 0 && (
                 <p className='text-bold bg-red-500 text-center mt-6'>No Products is Available</p>
             )}
+           </div>
         </section>
     );
 };
