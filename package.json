@@ -38,6 +38,6 @@
     "postcss-safe-parser": "^7.0.1"
   },
   "engines": {
-    "node": "24.x"
+    "node": "20.x"
   }
 }
